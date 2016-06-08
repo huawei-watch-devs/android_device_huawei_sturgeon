@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_sturgeon.mk
+    $(LOCAL_DIR)/cm_sturgeon.mk
