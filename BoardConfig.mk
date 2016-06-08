@@ -24,7 +24,7 @@ TARGET_KRAIT_BIONIC_PLDSIZE := 64
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := sturgeon
 
-BOARD_KERNEL_CMDLINE := androidboot.hardware=sturgeon user_debug=31 maxcpus=4 msm_rtb.filter=0x3F console=null pm_levels.sleep_disabled=1  androidboot.console=null
+BOARD_KERNEL_CMDLINE := androidboot.hardware=sturgeon user_debug=31 maxcpus=4 msm_rtb.filter=0x3F console=null pm_levels.sleep_disabled=1  androidboot.console=null androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 BOARD_KERNEL_BASE := 0x0000000
 BOARD_KERNEL_PAGESIZE := 2048
