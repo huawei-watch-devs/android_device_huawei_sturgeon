@@ -41,8 +41,7 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-RECOVERY_FSTAB_VERSION := 2
-TARGET_RECOVERY_FSTAB = device/huawei/sturgeon/fstab.sturgeon
+TARGET_RECOVERY_FSTAB = device/huawei/sturgeon/twrp.fstab
 
 RECOVERY_VARIANT := twrp
 TW_THEME := watch_mdpi
