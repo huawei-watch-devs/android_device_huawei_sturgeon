@@ -19,6 +19,7 @@ app/WearKeyboard/WearKeyboard.apk
 bin/bt_addr_format.sh
 bin/ClockworkProxy
 bin/delta_panel.sh
+bin/shd
 
 etc/regulatory_info.png
 etc/Tfa98xx.cnt
