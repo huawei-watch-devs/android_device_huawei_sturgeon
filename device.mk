@@ -14,3 +14,18 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_sturgeon
 PRODUCT_DEVICE := sturgeon
+
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.primary.default \
+    audio.r_submix.default \
+    audio_policy.default \
+    bluetooth.default \
+    gralloc.default \
+    gralloc.msm8226 \
+    hwcomposer.msm8226 \
+    keystore.default \
+    local_time.default \
+    memtrack.msm8226 \
+    power.default \
+    vibrator.default
