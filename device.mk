@@ -11,6 +11,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_sturgeon
 PRODUCT_DEVICE := sturgeon
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 400
+TARGET_SCREEN_WIDTH := 400
+
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := hdpi
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
